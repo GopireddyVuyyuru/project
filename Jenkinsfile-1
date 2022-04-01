@@ -1,6 +1,7 @@
 pipeline {
     agent any
-
+    environment varible
+    "PATH=/usr/bin/mvn:$PATH"
     stages {
         stage('Vaidation') {
             steps {
